@@ -1,1 +1,49 @@
-
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease; /* Adding transition for smoother hover effect */
+  }
+  
+  .contact-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjusted shadow on hover for subtle elevation */
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+  }
+  
+  .contact-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px; /* Adding margin bottom for separation */
+  }
+  
+  .contact-email {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #777777;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Adding transition for color change on hover */
+  }
+  
+  .icon:hover {
+    color: #ff6347; /* Changing color on hover */
+  }
